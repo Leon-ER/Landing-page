@@ -1,0 +1,165 @@
+.body{
+    display: flex;
+}
+/*This is for the top of the page*/
+.flex-container-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 100px;
+    
+}
+.flex-container-top div{
+    background: #1F2937;
+    color: #fff;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap : 10px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.flex-container-top .top-mid-left{
+    flex: 0 1 33%;
+}
+.flex-container-top .top-mid-right{
+    flex: 0 1 35%;
+}
+/*this is for the middle of the page*/
+
+/*Middle of page*/
+.flex-container-mid{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 250px;
+   
+}
+.flex-container-mid div{
+    background: #1F2937;
+    color: #fff;
+   
+}
+
+.flex-container-mid .mid-mid-left{
+    flex: 0 1 31%;
+}
+
+.flex-container-mid .mid-mid-right{
+    flex: 0 2 20%;
+    border: 5px solid gray;
+    background-color: gray;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    border-color: #1F2937;
+    background: #3882F6;
+    color: #fff;
+    border-radius: 12px;
+    width: 100px;
+}
+/*Information section*/
+.info-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+}
+.information{
+    display: flex;
+    background-color: #F9FAF8;
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information div{
+    display: flex;
+    border: 2px solid #0382a3;
+    height:  15px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 12px;
+    
+}
+
+/*Text under image*/
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+}
+.text div{
+    color: black;
+    padding: 37px;
+    margin-bottom: 15px;
+}
+/*Quote part of the page*/
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-style: italic;
+}
+.quote .message{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    width: 560px;
+}
+/*Signup section*/
+.signup{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.signup .sign-up{
+    margin: 50px;
+    border: 1px solid black;
+    display: flex; 
+    background: #3882F6;
+    height: 100px;
+    width: 1000px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.button2{
+    border-color: #fff;
+    border-radius: 12px;
+    width: 100px;
+    background: #3882F6;
+}
+/*Copyright*/
+.copyright{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright div{
+    background: #1F2937;
+    display: flex;
+    height: 100px;
+    width: 500px;
+    color: #fff;
+}
+
+
+
